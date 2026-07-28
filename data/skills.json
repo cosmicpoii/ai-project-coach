@@ -1,0 +1,361 @@
+{
+  "version": "1.0.0",
+  "description": "Canonical skill and prerequisite slugs with common text aliases used for normalization.",
+  "skills": {
+    "accessibility": [
+      "a11y",
+      "web accessibility",
+      "wcag"
+    ],
+    "api-testing": [
+      "api tests",
+      "api testing",
+      "endpoint testing"
+    ],
+    "authentication": [
+      "auth",
+      "user authentication",
+      "identity authentication"
+    ],
+    "automation": [
+      "workflow automation",
+      "process automation",
+      "scripting automation"
+    ],
+    "background-jobs": [
+      "background jobs",
+      "background tasks",
+      "task queue"
+    ],
+    "ci-cd": [
+      "ci/cd",
+      "continuous integration",
+      "continuous delivery",
+      "continuous deployment"
+    ],
+    "concurrency-control": [
+      "concurrency control",
+      "concurrent programming",
+      "race condition handling"
+    ],
+    "cosine-similarity": [
+      "cosine similarity",
+      "cosine distance"
+    ],
+    "crud": [
+      "create read update delete",
+      "crud operations"
+    ],
+    "data-pipeline": [
+      "data pipeline",
+      "data pipelines",
+      "etl pipeline"
+    ],
+    "data-storytelling": [
+      "data storytelling",
+      "analytical storytelling",
+      "communicating data insights"
+    ],
+    "data-transformation": [
+      "data transformation",
+      "data wrangling",
+      "data manipulation"
+    ],
+    "data-visualization": [
+      "data visualization",
+      "data visualisation",
+      "dashboard visualization",
+      "data viz"
+    ],
+    "database-transactions": [
+      "database transactions",
+      "transaction management",
+      "acid transactions"
+    ],
+    "docker": [
+      "docker containers",
+      "containerization",
+      "containerisation"
+    ],
+    "experiment-design": [
+      "experimental design",
+      "experiment design",
+      "ab test design",
+      "a/b test design"
+    ],
+    "exploratory-data-analysis": [
+      "exploratory data analysis",
+      "eda"
+    ],
+    "fastapi": [
+      "fast api",
+      "python fastapi"
+    ],
+    "file-processing": [
+      "file processing",
+      "batch file processing",
+      "document processing"
+    ],
+    "full-stack-development": [
+      "full stack development",
+      "full-stack engineering",
+      "full stack engineering"
+    ],
+    "github-api": [
+      "github api",
+      "github rest api",
+      "github graphql api"
+    ],
+    "http-monitoring": [
+      "http monitoring",
+      "endpoint monitoring",
+      "website monitoring"
+    ],
+    "hypothesis-testing": [
+      "hypothesis testing",
+      "statistical significance testing",
+      "significance testing"
+    ],
+    "incident-management": [
+      "incident management",
+      "incident response",
+      "incident handling"
+    ],
+    "information-extraction": [
+      "information extraction",
+      "entity extraction",
+      "keyphrase extraction"
+    ],
+    "integration-testing": [
+      "integration testing",
+      "integration tests",
+      "end to end backend testing"
+    ],
+    "logging": [
+      "application logging",
+      "structured logging",
+      "log management"
+    ],
+    "model-evaluation": [
+      "model evaluation",
+      "ml evaluation",
+      "machine learning metrics"
+    ],
+    "natural-language-processing": [
+      "natural language processing",
+      "nlp",
+      "text analytics"
+    ],
+    "nextjs": [
+      "next.js",
+      "next js"
+    ],
+    "observability": [
+      "system observability",
+      "application observability",
+      "metrics logs and traces"
+    ],
+    "offline-evaluation": [
+      "offline evaluation",
+      "offline metrics",
+      "recommender evaluation"
+    ],
+    "pandas": [
+      "python pandas",
+      "pandas dataframe"
+    ],
+    "postgresql": [
+      "postgres",
+      "postgre sql"
+    ],
+    "python": [
+      "python3",
+      "python programming"
+    ],
+    "ranking": [
+      "learning to rank",
+      "top k ranking",
+      "ranking algorithms"
+    ],
+    "react": [
+      "react.js",
+      "reactjs"
+    ],
+    "realtime-updates": [
+      "real-time updates",
+      "realtime updates",
+      "live updates"
+    ],
+    "recommender-systems": [
+      "recommender systems",
+      "recommendation systems",
+      "recommendation engine"
+    ],
+    "redis": [
+      "redis cache",
+      "redis database"
+    ],
+    "responsive-design": [
+      "responsive design",
+      "responsive web design",
+      "mobile first design"
+    ],
+    "rest-api": [
+      "rest api",
+      "restful api",
+      "restful services"
+    ],
+    "role-based-access": [
+      "role based access",
+      "role-based access control",
+      "rbac"
+    ],
+    "scheduled-jobs": [
+      "scheduled jobs",
+      "scheduled tasks",
+      "cron jobs"
+    ],
+    "sentence-transformers": [
+      "sentence transformers",
+      "sentence-transformers",
+      "sbert"
+    ],
+    "serverless": [
+      "serverless computing",
+      "serverless functions",
+      "cloud functions"
+    ],
+    "sql": [
+      "structured query language",
+      "sql queries"
+    ],
+    "state-management": [
+      "state management",
+      "application state",
+      "client state management"
+    ],
+    "statistics": [
+      "statistical analysis",
+      "applied statistics"
+    ],
+    "testing": [
+      "software testing",
+      "automated testing",
+      "test automation"
+    ],
+    "text-classification": [
+      "text classification",
+      "document classification",
+      "intent classification"
+    ],
+    "text-cleaning": [
+      "text cleaning",
+      "text preprocessing",
+      "text normalization"
+    ],
+    "tf-idf": [
+      "tfidf",
+      "term frequency inverse document frequency"
+    ],
+    "typescript": [
+      "type script",
+      "ts language"
+    ],
+    "url-state": [
+      "url state",
+      "query parameter state",
+      "search parameter state"
+    ]
+  },
+  "prerequisites": {
+    "basic-backend-development": [
+      "backend fundamentals",
+      "basic backend",
+      "beginner backend development"
+    ],
+    "basic-cloud-concepts": [
+      "cloud fundamentals",
+      "basic cloud",
+      "beginner cloud computing"
+    ],
+    "basic-data-structures": [
+      "data structure fundamentals",
+      "basic data structures"
+    ],
+    "basic-docker": [
+      "docker fundamentals",
+      "beginner docker"
+    ],
+    "basic-file-formats": [
+      "csv and json basics",
+      "basic file formats"
+    ],
+    "basic-git-github": [
+      "git fundamentals",
+      "github fundamentals",
+      "basic git and github"
+    ],
+    "basic-html-css": [
+      "html and css fundamentals",
+      "basic html and css"
+    ],
+    "basic-http": [
+      "http fundamentals",
+      "basic http",
+      "http methods and status codes"
+    ],
+    "basic-javascript": [
+      "javascript fundamentals",
+      "beginner javascript"
+    ],
+    "basic-machine-learning": [
+      "machine learning fundamentals",
+      "beginner machine learning"
+    ],
+    "basic-natural-language-processing": [
+      "nlp fundamentals",
+      "basic nlp"
+    ],
+    "basic-pandas": [
+      "pandas fundamentals",
+      "beginner pandas"
+    ],
+    "basic-probability": [
+      "probability fundamentals",
+      "beginner probability"
+    ],
+    "basic-programming": [
+      "programming fundamentals",
+      "beginner programming"
+    ],
+    "basic-python": [
+      "python fundamentals",
+      "beginner python"
+    ],
+    "basic-react": [
+      "react fundamentals",
+      "beginner react"
+    ],
+    "basic-rest-api": [
+      "rest api fundamentals",
+      "basic restful api"
+    ],
+    "basic-spreadsheets": [
+      "spreadsheet fundamentals",
+      "basic excel",
+      "basic google sheets"
+    ],
+    "basic-sql": [
+      "sql fundamentals",
+      "beginner sql"
+    ],
+    "basic-statistics": [
+      "statistics fundamentals",
+      "beginner statistics"
+    ],
+    "descriptive-statistics": [
+      "summary statistics",
+      "mean median and standard deviation"
+    ]
+  }
+}

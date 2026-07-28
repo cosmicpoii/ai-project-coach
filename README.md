@@ -24,8 +24,19 @@ Within five minutes, a user can turn a job description into:
 - Next.js
 - TypeScript
 - Tailwind CSS
-- OpenAI API
+- Python
+- scikit-learn
+- Sentence Transformers
 - Vercel
+
+## Project Data
+
+The MVP uses a manually curated catalog of 18 portfolio projects across frontend, backend, full-stack, data analysis, machine learning, and automation/cloud.
+
+- Catalog: [`data/projects.json`](data/projects.json)
+- Curation and labeling methodology: [`docs/project-catalog-methodology.md`](docs/project-catalog-methodology.md)
+
+The initial recommendation system will use transparent content-based ranking based on semantic similarity, skill overlap, user background, difficulty, and available time.
 
 ## Project Status
 

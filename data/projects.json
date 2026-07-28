@@ -1,0 +1,1020 @@
+[
+  {
+    "id": "fe-01",
+    "title": "Accessible Job Board",
+    "direction": "frontend",
+    "description": "Build a responsive job board where users can search, filter, save, and review job listings with full keyboard and screen-reader support.",
+    "skills": [
+      "react",
+      "typescript",
+      "state-management",
+      "accessibility",
+      "responsive-design"
+    ],
+    "difficulty": 1,
+    "estimated_hours": 35,
+    "prerequisites": [
+      "basic-html-css",
+      "basic-javascript"
+    ],
+    "deliverables": [
+      "Deployed responsive job board",
+      "Search and multi-filter interface",
+      "Saved-jobs feature",
+      "Accessibility audit report",
+      "Project README with screenshots"
+    ],
+    "phases": [
+      {
+        "name": "Planning and wireframing",
+        "percentage": 15
+      },
+      {
+        "name": "Job listing and filtering interface",
+        "percentage": 40
+      },
+      {
+        "name": "Accessibility and responsive design",
+        "percentage": 25
+      },
+      {
+        "name": "Testing, documentation, and deployment",
+        "percentage": 20
+      }
+    ],
+    "references": [
+      {
+        "name": "Adobe React Spectrum",
+        "type": "reference-implementation",
+        "url": "https://github.com/adobe/react-spectrum",
+        "use_for": [
+          "accessible component patterns",
+          "keyboard navigation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fe-02",
+    "title": "Product Comparison App",
+    "direction": "frontend",
+    "description": "Create a product discovery interface that lets users search a catalog, select products, and compare their specifications side by side.",
+    "skills": [
+      "react",
+      "typescript",
+      "state-management",
+      "url-state",
+      "responsive-design"
+    ],
+    "difficulty": 2,
+    "estimated_hours": 40,
+    "prerequisites": [
+      "basic-html-css",
+      "basic-javascript",
+      "basic-react"
+    ],
+    "deliverables": [
+      "Searchable product catalog",
+      "Side-by-side comparison table",
+      "Shareable filter and comparison URLs",
+      "Responsive mobile layout",
+      "Deployed demo and project README"
+    ],
+    "phases": [
+      {
+        "name": "Product model and interface design",
+        "percentage": 15
+      },
+      {
+        "name": "Catalog, search, and filtering",
+        "percentage": 30
+      },
+      {
+        "name": "Comparison workflow and URL state",
+        "percentage": 35
+      },
+      {
+        "name": "Testing, polish, and deployment",
+        "percentage": 20
+      }
+    ],
+    "references": [
+      {
+        "name": "Vercel Next.js Commerce",
+        "type": "reference-implementation",
+        "url": "https://github.com/vercel/commerce",
+        "use_for": [
+          "product catalog structure",
+          "search and product UI patterns"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fe-03",
+    "title": "Personal Finance Dashboard",
+    "direction": "frontend",
+    "description": "Build a privacy-friendly dashboard that imports sample transactions and helps users understand spending, income, and budget progress.",
+    "skills": [
+      "nextjs",
+      "typescript",
+      "data-visualization",
+      "data-transformation",
+      "responsive-design"
+    ],
+    "difficulty": 2,
+    "estimated_hours": 42,
+    "prerequisites": [
+      "basic-javascript",
+      "basic-react",
+      "basic-data-structures"
+    ],
+    "deliverables": [
+      "Transaction import and categorization flow",
+      "Income and spending dashboard",
+      "Budget progress visualization",
+      "Date and category filters",
+      "Deployed demo using sample data"
+    ],
+    "phases": [
+      {
+        "name": "Data model and dashboard planning",
+        "percentage": 15
+      },
+      {
+        "name": "Transaction processing and filters",
+        "percentage": 30
+      },
+      {
+        "name": "Charts and budget insights",
+        "percentage": 35
+      },
+      {
+        "name": "Responsive polish and deployment",
+        "percentage": 20
+      }
+    ],
+    "references": [
+      {
+        "name": "Spliit",
+        "type": "reference-implementation",
+        "url": "https://github.com/spliit-app/spliit",
+        "use_for": [
+          "expense data modeling",
+          "finance interface patterns"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "be-01",
+    "title": "URL Shortener Analytics API",
+    "direction": "backend",
+    "description": "Develop a REST API that creates short links, redirects visitors, expires links, and reports basic click analytics.",
+    "skills": [
+      "python",
+      "fastapi",
+      "rest-api",
+      "sql",
+      "api-testing"
+    ],
+    "difficulty": 1,
+    "estimated_hours": 32,
+    "prerequisites": [
+      "basic-python",
+      "basic-http"
+    ],
+    "deliverables": [
+      "Documented REST API",
+      "Persistent short-link storage",
+      "Redirect and expiration logic",
+      "Click analytics endpoint",
+      "Automated API test suite"
+    ],
+    "phases": [
+      {
+        "name": "API design and data modeling",
+        "percentage": 20
+      },
+      {
+        "name": "Short-link creation and redirects",
+        "percentage": 35
+      },
+      {
+        "name": "Analytics and expiration features",
+        "percentage": 25
+      },
+      {
+        "name": "Testing and documentation",
+        "percentage": 20
+      }
+    ],
+    "references": [
+      {
+        "name": "Shortify",
+        "type": "reference-implementation",
+        "url": "https://github.com/IHosseini083/Shortify",
+        "use_for": [
+          "FastAPI project structure",
+          "URL and analytics endpoint design"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "be-02",
+    "title": "Inventory Reservation Service",
+    "direction": "backend",
+    "description": "Build an inventory API that tracks stock, reserves items for a limited time, releases expired reservations, and prevents overselling.",
+    "skills": [
+      "rest-api",
+      "postgresql",
+      "database-transactions",
+      "concurrency-control",
+      "integration-testing"
+    ],
+    "difficulty": 3,
+    "estimated_hours": 55,
+    "prerequisites": [
+      "basic-backend-development",
+      "basic-sql",
+      "basic-http"
+    ],
+    "deliverables": [
+      "Inventory and reservation API",
+      "Relational database schema",
+      "Reservation expiration workflow",
+      "Concurrent reservation tests",
+      "Architecture decision document"
+    ],
+    "phases": [
+      {
+        "name": "Domain modeling and API design",
+        "percentage": 20
+      },
+      {
+        "name": "Inventory and reservation workflow",
+        "percentage": 30
+      },
+      {
+        "name": "Transactions and concurrency handling",
+        "percentage": 30
+      },
+      {
+        "name": "Integration testing and documentation",
+        "percentage": 20
+      }
+    ],
+    "references": [
+      {
+        "name": "Medusa",
+        "type": "reference-implementation",
+        "url": "https://github.com/medusajs/medusa",
+        "use_for": [
+          "commerce domain modeling",
+          "inventory and reservation concepts"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "be-03",
+    "title": "Notification Queue Service",
+    "direction": "backend",
+    "description": "Create an asynchronous notification service with queued jobs, worker processing, retries, scheduling, and a dead-letter queue.",
+    "skills": [
+      "python",
+      "fastapi",
+      "redis",
+      "background-jobs",
+      "docker"
+    ],
+    "difficulty": 3,
+    "estimated_hours": 58,
+    "prerequisites": [
+      "basic-python",
+      "basic-rest-api",
+      "basic-docker"
+    ],
+    "deliverables": [
+      "Notification submission API",
+      "Background worker service",
+      "Retry and dead-letter queue workflow",
+      "Job status dashboard or endpoint",
+      "Docker Compose development environment"
+    ],
+    "phases": [
+      {
+        "name": "Queue architecture and job model",
+        "percentage": 20
+      },
+      {
+        "name": "API, broker, and worker implementation",
+        "percentage": 35
+      },
+      {
+        "name": "Retries, scheduling, and failure handling",
+        "percentage": 25
+      },
+      {
+        "name": "Observability, testing, and documentation",
+        "percentage": 20
+      }
+    ],
+    "references": [
+      {
+        "name": "FastAPI Async Queue",
+        "type": "reference-implementation",
+        "url": "https://github.com/rjalexa/fastapi-async",
+        "use_for": [
+          "queue lifecycle design",
+          "Redis worker architecture"
+        ]
+      },
+      {
+        "name": "Celery",
+        "type": "official-documentation",
+        "url": "https://github.com/celery/celery",
+        "use_for": [
+          "retry patterns",
+          "task queue concepts"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-01",
+    "title": "Job Application Tracker",
+    "direction": "full-stack",
+    "description": "Build a personal application tracker with status management, search, follow-up dates, and a dashboard summarizing job-search activity.",
+    "skills": [
+      "nextjs",
+      "typescript",
+      "crud",
+      "sql",
+      "data-visualization"
+    ],
+    "difficulty": 1,
+    "estimated_hours": 38,
+    "prerequisites": [
+      "basic-javascript",
+      "basic-react"
+    ],
+    "deliverables": [
+      "Application CRUD workflow",
+      "Search and status filters",
+      "Follow-up task view",
+      "Application analytics dashboard",
+      "Deployed full-stack application"
+    ],
+    "phases": [
+      {
+        "name": "User flow and database design",
+        "percentage": 20
+      },
+      {
+        "name": "Application management workflow",
+        "percentage": 35
+      },
+      {
+        "name": "Search, filters, and dashboard",
+        "percentage": 25
+      },
+      {
+        "name": "Testing, documentation, and deployment",
+        "percentage": 20
+      }
+    ],
+    "references": [
+      {
+        "name": "JobSync",
+        "type": "reference-implementation",
+        "url": "https://github.com/Gsync/jobsync",
+        "use_for": [
+          "application tracking workflow",
+          "job-search dashboard patterns"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-02",
+    "title": "Customer Support Portal",
+    "direction": "full-stack",
+    "description": "Create a two-sided support portal where customers submit tickets and support agents assign, discuss, and resolve them.",
+    "skills": [
+      "react",
+      "rest-api",
+      "authentication",
+      "sql",
+      "role-based-access"
+    ],
+    "difficulty": 2,
+    "estimated_hours": 52,
+    "prerequisites": [
+      "basic-react",
+      "basic-backend-development",
+      "basic-sql"
+    ],
+    "deliverables": [
+      "Customer ticket submission portal",
+      "Agent ticket management dashboard",
+      "Authentication and role-based access",
+      "Ticket comments and status history",
+      "Deployed full-stack application"
+    ],
+    "phases": [
+      {
+        "name": "Workflow, roles, and data model",
+        "percentage": 20
+      },
+      {
+        "name": "Customer and agent portals",
+        "percentage": 35
+      },
+      {
+        "name": "Authentication, comments, and history",
+        "percentage": 25
+      },
+      {
+        "name": "Testing, security review, and deployment",
+        "percentage": 20
+      }
+    ],
+    "references": [
+      {
+        "name": "Frappe Helpdesk",
+        "type": "reference-implementation",
+        "url": "https://github.com/frappe/helpdesk",
+        "use_for": [
+          "customer and agent portal flows",
+          "ticket lifecycle design"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-03",
+    "title": "Collaborative Study Planner",
+    "direction": "full-stack",
+    "description": "Develop a shared study planner where learners create plans, assign tasks, track progress, and coordinate deadlines.",
+    "skills": [
+      "typescript",
+      "full-stack-development",
+      "postgresql",
+      "authentication",
+      "realtime-updates"
+    ],
+    "difficulty": 3,
+    "estimated_hours": 60,
+    "prerequisites": [
+      "basic-react",
+      "basic-backend-development",
+      "basic-sql"
+    ],
+    "deliverables": [
+      "Shared study plan and task board",
+      "User authentication and memberships",
+      "Progress and workload dashboard",
+      "Realtime or optimistic task updates",
+      "Deployed collaborative application"
+    ],
+    "phases": [
+      {
+        "name": "Collaboration model and interface planning",
+        "percentage": 20
+      },
+      {
+        "name": "Plans, tasks, and membership workflow",
+        "percentage": 30
+      },
+      {
+        "name": "Progress tracking and realtime updates",
+        "percentage": 30
+      },
+      {
+        "name": "Testing, documentation, and deployment",
+        "percentage": 20
+      }
+    ],
+    "references": [
+      {
+        "name": "Worklenz",
+        "type": "reference-implementation",
+        "url": "https://github.com/Worklenz/worklenz",
+        "use_for": [
+          "task planning workflow",
+          "team progress patterns"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "da-01",
+    "title": "Job Market Skills Dashboard",
+    "direction": "data-analysis",
+    "description": "Analyze a curated collection of job postings to identify in-demand skills, common skill combinations, locations, and role-specific trends.",
+    "skills": [
+      "python",
+      "pandas",
+      "text-cleaning",
+      "exploratory-data-analysis",
+      "data-visualization"
+    ],
+    "difficulty": 1,
+    "estimated_hours": 36,
+    "prerequisites": [
+      "basic-python",
+      "basic-spreadsheets"
+    ],
+    "deliverables": [
+      "Cleaned job-posting dataset",
+      "Normalized skill taxonomy",
+      "Interactive skills dashboard",
+      "Written labor-market findings",
+      "Reproducible analysis notebook"
+    ],
+    "phases": [
+      {
+        "name": "Question definition and data collection",
+        "percentage": 15
+      },
+      {
+        "name": "Text cleaning and skill normalization",
+        "percentage": 35
+      },
+      {
+        "name": "Analysis and visualization",
+        "percentage": 35
+      },
+      {
+        "name": "Findings, documentation, and presentation",
+        "percentage": 15
+      }
+    ],
+    "references": [
+      {
+        "name": "Skills Gap Analysis",
+        "type": "reference-implementation",
+        "url": "https://github.com/veriables/skills_gap_analysis",
+        "use_for": [
+          "skill normalization",
+          "job-posting text analysis"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "da-02",
+    "title": "Customer Churn Diagnostic",
+    "direction": "data-analysis",
+    "description": "Investigate customer churn with exploratory analysis and segmentation, then communicate the strongest risk factors and retention opportunities.",
+    "skills": [
+      "python",
+      "pandas",
+      "exploratory-data-analysis",
+      "statistics",
+      "data-storytelling"
+    ],
+    "difficulty": 2,
+    "estimated_hours": 42,
+    "prerequisites": [
+      "basic-python",
+      "basic-statistics"
+    ],
+    "deliverables": [
+      "Cleaned churn dataset and data dictionary",
+      "Exploratory analysis notebook",
+      "Customer segment profiles",
+      "Churn risk dashboard",
+      "Retention recommendation report"
+    ],
+    "phases": [
+      {
+        "name": "Business question and data audit",
+        "percentage": 15
+      },
+      {
+        "name": "Data cleaning and exploration",
+        "percentage": 35
+      },
+      {
+        "name": "Segmentation and risk analysis",
+        "percentage": 30
+      },
+      {
+        "name": "Dashboard and recommendations",
+        "percentage": 20
+      }
+    ],
+    "references": [
+      {
+        "name": "Customer Churn Prediction and Segmentation",
+        "type": "reference-implementation",
+        "url": "https://github.com/tamjid-ahsan/capstone_customer_churn",
+        "use_for": [
+          "analysis workflow",
+          "segmentation and dashboard ideas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "da-03",
+    "title": "A/B Test Decision Toolkit",
+    "direction": "data-analysis",
+    "description": "Create a toolkit that checks experiment data, calculates conversion lift and uncertainty, and produces an interpretable go-or-no-go report.",
+    "skills": [
+      "python",
+      "statistics",
+      "hypothesis-testing",
+      "experiment-design",
+      "data-visualization"
+    ],
+    "difficulty": 3,
+    "estimated_hours": 46,
+    "prerequisites": [
+      "basic-python",
+      "descriptive-statistics",
+      "basic-probability"
+    ],
+    "deliverables": [
+      "Experiment data validation report",
+      "Sample-size and power calculator",
+      "Frequentist A/B test analysis",
+      "Interactive result visualization",
+      "Decision memo explaining limitations"
+    ],
+    "phases": [
+      {
+        "name": "Metric and experiment design",
+        "percentage": 20
+      },
+      {
+        "name": "Validation and statistical calculations",
+        "percentage": 35
+      },
+      {
+        "name": "Visualization and interpretation",
+        "percentage": 25
+      },
+      {
+        "name": "Testing and decision documentation",
+        "percentage": 20
+      }
+    ],
+    "references": [
+      {
+        "name": "GrowthBook",
+        "type": "reference-implementation",
+        "url": "https://github.com/growthbook/growthbook",
+        "use_for": [
+          "experiment analysis concepts",
+          "result communication patterns"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ml-01",
+    "title": "Support Ticket Classifier",
+    "direction": "machine-learning",
+    "description": "Train and evaluate a text classifier that routes incoming support tickets by topic and exposes predictions through a small interactive demo.",
+    "skills": [
+      "python",
+      "natural-language-processing",
+      "tf-idf",
+      "text-classification",
+      "model-evaluation"
+    ],
+    "difficulty": 2,
+    "estimated_hours": 45,
+    "prerequisites": [
+      "basic-python",
+      "basic-pandas"
+    ],
+    "deliverables": [
+      "Prepared and documented text dataset",
+      "TF-IDF classification baseline",
+      "Model comparison and evaluation report",
+      "Error analysis with example failures",
+      "Interactive prediction demo"
+    ],
+    "phases": [
+      {
+        "name": "Data preparation and label review",
+        "percentage": 20
+      },
+      {
+        "name": "Baseline model development",
+        "percentage": 25
+      },
+      {
+        "name": "Evaluation and error analysis",
+        "percentage": 35
+      },
+      {
+        "name": "Demo and documentation",
+        "percentage": 20
+      }
+    ],
+    "references": [
+      {
+        "name": "Ticket Intel",
+        "type": "reference-implementation",
+        "url": "https://github.com/CCallahan308/ticket-intel",
+        "use_for": [
+          "TF-IDF baseline design",
+          "model serving and demo structure"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ml-02",
+    "title": "Resume-Job Skill Matcher",
+    "direction": "machine-learning",
+    "description": "Build an explainable matching tool that extracts normalized skills from a resume and job description, calculates similarity, and highlights skill gaps.",
+    "skills": [
+      "python",
+      "information-extraction",
+      "sentence-transformers",
+      "cosine-similarity",
+      "model-evaluation"
+    ],
+    "difficulty": 2,
+    "estimated_hours": 48,
+    "prerequisites": [
+      "basic-python",
+      "basic-natural-language-processing"
+    ],
+    "deliverables": [
+      "Normalized skill taxonomy",
+      "Resume and job-description parser",
+      "Keyword and semantic matching baselines",
+      "Explainable match and skill-gap report",
+      "Evaluation set with documented results"
+    ],
+    "phases": [
+      {
+        "name": "Skill taxonomy and text preparation",
+        "percentage": 25
+      },
+      {
+        "name": "Keyword matching baseline",
+        "percentage": 20
+      },
+      {
+        "name": "Semantic matching and evaluation",
+        "percentage": 35
+      },
+      {
+        "name": "Explanation interface and documentation",
+        "percentage": 20
+      }
+    ],
+    "references": [
+      {
+        "name": "Resume Matcher",
+        "type": "reference-implementation",
+        "url": "https://github.com/srbhr/resume-matcher",
+        "use_for": [
+          "match result presentation",
+          "skill-gap interface patterns"
+        ]
+      },
+      {
+        "name": "Sentence Transformers Semantic Search",
+        "type": "official-documentation",
+        "url": "https://www.sbert.net/examples/sentence_transformer/applications/semantic-search/README.html",
+        "use_for": [
+          "query and document embeddings",
+          "cosine similarity search"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ml-03",
+    "title": "Product Recommendation Sandbox",
+    "direction": "machine-learning",
+    "description": "Implement and compare content-based product recommendation baselines, then evaluate top-k relevance, coverage, and recommendation diversity.",
+    "skills": [
+      "python",
+      "recommender-systems",
+      "tf-idf",
+      "ranking",
+      "offline-evaluation"
+    ],
+    "difficulty": 3,
+    "estimated_hours": 58,
+    "prerequisites": [
+      "basic-python",
+      "basic-pandas",
+      "basic-machine-learning"
+    ],
+    "deliverables": [
+      "Prepared item catalog and evaluation queries",
+      "Popularity and TF-IDF baselines",
+      "Top-k recommendation pipeline",
+      "Precision, recall, NDCG, coverage, and diversity report",
+      "Interactive recommendation demo"
+    ],
+    "phases": [
+      {
+        "name": "Catalog design and evaluation set",
+        "percentage": 20
+      },
+      {
+        "name": "Baseline recommenders",
+        "percentage": 25
+      },
+      {
+        "name": "Ranking experiments and evaluation",
+        "percentage": 35
+      },
+      {
+        "name": "Demo, findings, and documentation",
+        "percentage": 20
+      }
+    ],
+    "references": [
+      {
+        "name": "RecBole",
+        "type": "reference-implementation",
+        "url": "https://github.com/RUCAIBox/RecBole",
+        "use_for": [
+          "recommendation evaluation concepts",
+          "top-k experiment structure"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ac-01",
+    "title": "Automated File Processing Pipeline",
+    "direction": "automation-cloud",
+    "description": "Build a configurable pipeline that watches an intake folder, validates incoming files, transforms valid records, quarantines failures, and records an audit log.",
+    "skills": [
+      "python",
+      "file-processing",
+      "automation",
+      "logging",
+      "testing"
+    ],
+    "difficulty": 1,
+    "estimated_hours": 30,
+    "prerequisites": [
+      "basic-python",
+      "basic-file-formats"
+    ],
+    "deliverables": [
+      "Directory monitoring service",
+      "File validation and transformation rules",
+      "Processed and quarantine workflows",
+      "Structured audit logs",
+      "Automated test suite and runbook"
+    ],
+    "phases": [
+      {
+        "name": "Workflow and file-format definition",
+        "percentage": 20
+      },
+      {
+        "name": "Monitoring and processing pipeline",
+        "percentage": 35
+      },
+      {
+        "name": "Failure handling and audit logs",
+        "percentage": 25
+      },
+      {
+        "name": "Testing and operational documentation",
+        "percentage": 20
+      }
+    ],
+    "references": [
+      {
+        "name": "Python Watchdog",
+        "type": "reference-implementation",
+        "url": "https://github.com/gorakhargosh/watchdog",
+        "use_for": [
+          "filesystem event monitoring",
+          "cross-platform watcher patterns"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ac-02",
+    "title": "GitHub Repository Health Monitor",
+    "direction": "automation-cloud",
+    "description": "Create a scheduled monitor that collects repository activity and community metrics, calculates an explainable health score, and publishes a dashboard.",
+    "skills": [
+      "python",
+      "github-api",
+      "data-pipeline",
+      "ci-cd",
+      "data-visualization"
+    ],
+    "difficulty": 2,
+    "estimated_hours": 40,
+    "prerequisites": [
+      "basic-python",
+      "basic-http",
+      "basic-git-github"
+    ],
+    "deliverables": [
+      "GitHub metrics collection script",
+      "Documented repository health formula",
+      "Historical metrics dataset",
+      "Automated scheduled workflow",
+      "Repository health dashboard"
+    ],
+    "phases": [
+      {
+        "name": "Health metric and API design",
+        "percentage": 20
+      },
+      {
+        "name": "Metrics collection pipeline",
+        "percentage": 30
+      },
+      {
+        "name": "Scoring and dashboard",
+        "percentage": 30
+      },
+      {
+        "name": "Automation, testing, and documentation",
+        "percentage": 20
+      }
+    ],
+    "references": [
+      {
+        "name": "GitHub Repository Metrics API",
+        "type": "official-documentation",
+        "url": "https://docs.github.com/en/rest/metrics",
+        "use_for": [
+          "repository activity metrics",
+          "API endpoint definitions"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ac-03",
+    "title": "Serverless Uptime Monitor",
+    "direction": "automation-cloud",
+    "description": "Develop a scheduled service that checks websites, stores response history, detects incidents, and sends recovery or downtime notifications.",
+    "skills": [
+      "serverless",
+      "scheduled-jobs",
+      "http-monitoring",
+      "observability",
+      "incident-management"
+    ],
+    "difficulty": 2,
+    "estimated_hours": 42,
+    "prerequisites": [
+      "basic-programming",
+      "basic-http",
+      "basic-cloud-concepts"
+    ],
+    "deliverables": [
+      "Scheduled multi-site health checks",
+      "Response-time and uptime history",
+      "Incident detection and recovery logic",
+      "Notification integration",
+      "Public status page and deployment guide"
+    ],
+    "phases": [
+      {
+        "name": "Monitoring requirements and data model",
+        "percentage": 20
+      },
+      {
+        "name": "Scheduled checks and history storage",
+        "percentage": 30
+      },
+      {
+        "name": "Incidents, notifications, and status page",
+        "percentage": 30
+      },
+      {
+        "name": "Deployment, testing, and runbook",
+        "percentage": 20
+      }
+    ],
+    "references": [
+      {
+        "name": "Upptime",
+        "type": "reference-implementation",
+        "url": "https://github.com/upptime/upptime",
+        "use_for": [
+          "scheduled uptime checks",
+          "incident and status-page workflows"
+        ]
+      }
+    ]
+  }
+]
